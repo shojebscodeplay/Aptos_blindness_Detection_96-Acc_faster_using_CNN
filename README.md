@@ -17,7 +17,6 @@ The dataset used in this project is the **Aptos 2019 Blindness Detection** datas
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
-- [License](#license)
 
 ## Introduction
 
@@ -53,6 +52,23 @@ To address class imbalance, I have used **SMOTE (Synthetic Minority Over-samplin
 - Seaborn
 - OpenCV
 - imbalanced-learn (for handling class imbalance)
+
+## Model Architecture
+
+The CNN model architecture consists of:
+- Three convolutional layers with ReLU activation
+- Max pooling layers to downsample the feature maps
+- A flattening layer to convert the 2D feature maps into 1D
+- A fully connected layer with dropout for regularization
+- An output layer with softmax activation for multi-class classification
+
+## Results
+
+- Training accuracy: **98.4%**
+- Validation accuracy: **95.47%**
+
+The classification report and confusion matrix provide detailed insights into the model's performance across different classes.
+
 
 ## Installation
 
