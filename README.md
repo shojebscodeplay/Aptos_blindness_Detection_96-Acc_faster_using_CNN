@@ -7,6 +7,7 @@
 This project aims to develop a deep learning model for detecting diabetic retinopathy (DR) from retinal images using the Aptos dataset. The model utilizes a Convolutional Neural Network (CNN) to classify images into five categories based on the severity of diabetic retinopathy.
 ![sample](https://github.com/user-attachments/assets/29f3dcf1-de2a-46cf-889b-0ffcf147182d)
 
+The dataset used in this project is the **Aptos 2019 Blindness Detection** dataset, which can be found [here](https://www.kaggle.com/c/aptos2019-blindness-detection/data). It contains images labeled with different severity levels of diabetic retinopathy:
 
 ## Table of Contents
 - [Introduction](#introduction)
