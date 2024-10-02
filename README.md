@@ -5,6 +5,8 @@
 [![Keras](https://img.shields.io/badge/Keras-v2.3+-red)](https://keras.io/)
 
 This project aims to develop a deep learning model for detecting diabetic retinopathy (DR) from retinal images using the Aptos dataset. The model utilizes a Convolutional Neural Network (CNN) to classify images into five categories based on the severity of diabetic retinopathy.
+![sample](https://github.com/user-attachments/assets/29f3dcf1-de2a-46cf-889b-0ffcf147182d)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -33,8 +35,12 @@ The dataset includes:
 - **Training samples**: 2930
 - **Validation samples**: 366
 - **Test samples**: 366
+![class](https://github.com/user-attachments/assets/7e72e83b-e4c6-448b-bc6d-f56cee67035b)
 
 To address class imbalance, I have used **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the dataset, resulting in improved model performance. This technique allowed me to achieve good results with a faster and lighter CNN model.
+![Acc loss](https://github.com/user-attachments/assets/4ea51720-168e-4191-a515-a89d44b808dc)
+
+![confussion_matrix](https://github.com/user-attachments/assets/b8ebf0ec-2111-4e7d-be83-08dee149ef6e)
 
 ## Technologies Used
 
